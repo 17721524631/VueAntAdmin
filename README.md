@@ -7,3 +7,11 @@
 #### &nbsp;&nbsp;集成了项目常用的工具包、axios 拦截器统一封装 api、上线打包优化方案
 
 ##### &nbsp;&nbsp;从公司项目剥离而出的初始化模板
+
+### &nbsp;&nbsp;克隆项目
+
+### &nbsp;&nbsp;git clone https://github.com/17721524631/VueAntAdmin.git
+
+#### &nbsp;&nbsp;安装依赖
+
+#### &nbsp;&nbsp;npm i (npm 国外资源很慢，建议用 yarn 或者 nrm 换源)
