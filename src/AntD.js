@@ -1,0 +1,34 @@
+import Vue from 'vue'
+import { Form, Input, Icon, Checkbox, Button, Layout, Menu, Breadcrumb, Row, Col, Select, DatePicker, LocaleProvider, Card, Table, Radio, Tabs, message, Avatar, Dropdown, Switch, Divider, Modal, InputNumber, Popover, Slider, Upload, Popconfirm, Tree } from 'ant-design-vue';
+Vue.use(Form);
+Vue.use(Input);
+Vue.use(Icon);
+Vue.use(Checkbox);
+Vue.use(Button);
+Vue.use(Layout);
+Vue.use(Menu);
+Vue.use(Breadcrumb);
+Vue.use(Row);
+Vue.use(Col);
+Vue.use(Select);
+Vue.use(DatePicker);
+Vue.use(LocaleProvider);
+Vue.use(Card);
+Vue.use(Table);
+Vue.use(Radio);
+Vue.use(Tabs);
+Vue.use(Avatar);
+Vue.use(Dropdown);
+Vue.use(Switch);
+Vue.use(Divider);
+Vue.use(Modal);
+Vue.use(InputNumber);
+Vue.use(Popover);
+Vue.use(Slider);
+Vue.use(Upload);
+Vue.use(Popconfirm);
+Vue.use(Tree);
+
+Vue.prototype.$message = message;
+Vue.prototype.$confirm = Modal.confirm;
+Vue.prototype.$success = Modal.success;
